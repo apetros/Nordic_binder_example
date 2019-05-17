@@ -1,7 +1,12 @@
-name: pyramses
+name: ramenv
 channels:
   - apetros
   - conda-forge
   - defaults
 dependencies:
-  - pyramses
+  - python=3.7
+  - mkl
+  - scipy
+  - numpy
+  - matplotlib
+  - pyramses>=0.0.12
